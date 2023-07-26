@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from "next/router";
-
+import Image from "next/image";
 
 const LogIn = () => {
 
@@ -70,7 +70,7 @@ const LogIn = () => {
       <div className="px-6 h-full text-gray-800">
         <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
           <div className="object-contain md:object-scale-down mx-9">
-            <img src="https://images.freeimages.com/clg/istock/previews/8010/80105769-user-login-or-access-authentication-icon.jpg"  height={500} width={500} className="y" alt="Sample image" />
+            <Image src="/in.png"  height={500} width={500} alt="Sample image" />
           </div>
           <div className="xl:ml-0 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
             
