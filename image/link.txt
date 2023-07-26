@@ -1,0 +1,3 @@
+https://www.osce.org/oceea/446296 
+https://jpt.spe.org/twa/the-basic-elements-of-artificial-intelligence-and-recipe-for-a-successful-career-kick-start
+mongodb://localhost:27017
