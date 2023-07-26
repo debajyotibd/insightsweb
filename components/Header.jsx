@@ -59,10 +59,10 @@ const Header = ({ user, logout }) => {
        
           
 
-      <a href="/" className="flex items-center" >
+      <Link href="/" className="flex items-center" >
           <Image src="/inlogo.png" width={80} height={200} className="h-15 mr-5" alt="InsightsNet_Logo" />
           <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white ">InsightsWeb</span>
-      </a>
+      </Link>
 
 
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
