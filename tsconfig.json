@@ -19,6 +19,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_docment.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_docment.js", "pages/_app.jsx", "components/Header.jsx"],
   "exclude": ["node_modules"]
 }
