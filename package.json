@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "npm run build && rsync --exclude=.git -azP . ububtu@3.73.155.33:/home/ubuntu/apps/insightsweb",
+    "deploy": "npm run build && rsync --exclude=.git -azP . root@46.101.231.199:/root/insightsweb",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
