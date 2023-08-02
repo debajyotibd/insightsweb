@@ -30,7 +30,7 @@ const LogIn = () => {
     e.preventDefault();
     const data = { email, password };
 
-    let res = await fetch("http://3.73.155.33:3000/api/login", {
+    let res = await fetch("http://46.101.231.199:3000/api/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -49,7 +49,7 @@ const LogIn = () => {
         });
         setTimeout( () =>  {
         
-            router.push("http://3.73.155.33:3000/DataExploration")} 
+            router.push("http://46.101.231.199:3000/DataExploration")} 
             , 1000); 
       
       }else{
